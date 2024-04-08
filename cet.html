@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Edification Classes</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header>
+        <div class="header_top_area my-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="header_top d-flex justify-content-between">
+                            <div class="site_logo">
+                                <a href="index.html"><img src="assets/images/logo.png" alt="logo" class="img-fluid"></a>
+                            </div>
+                            <div class="site_info d-flex justify-content-between">
+                                <div class="single_info">
+                                    <img src="assets/images/location.png" alt="Location" class="img-fluid">
+                                    <div class="info_data">
+                                        <h6>Location</h6>
+                                        <p>RT Nagar Main Road fornt of IDFC bank</p>
+                                    </div>
+                                </div>
+                                <div class="single_info">
+                                    <img src="assets/images/phone.png" alt="Location" class="img-fluid">
+                                    <div class="info_data">
+                                        <h6>Phone</h6>
+                                        <p>+91 9663980860</p>
+                                    </div>
+                                </div>
+                                <div class="single_info">
+                                    <button class="special-button"
+                                        onclick="window.location.href = 'apply_form.html';">Apply Now <i
+                                            class="fa fa-angle-right"></i> <span class="button_icon"><i
+                                                class="far fa-file-alt"></i></span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-menu-area bg_dark_mobile">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="main-menu default_bg">
+                            <nav class="navbar navbar-expand-lg">
+                                <div class="mobile_site_logo d-none">
+                                    <a href="index.html"><img src="assets/images/footer_logo.png" alt="logo"
+                                            class="img-fluid"></a>
+                                </div>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <i class="fa fa-bars"></i>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="index.html">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="about.html">About</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                            role="button" data-bs-toggle="dropdown">Courses</a>
+                                            
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="jee.html">JEE</a></li>
+                                            <li><a class="dropdown-item" href="iit.html">IIT (Main  + Advanced)</a></li>
+                                            <li><a class="dropdown-item" href="neet.html">NEET</a></li>
+                                            <li><a class="dropdown-item" href="cet.html">CET</a></li>
+                                            <li><a class="dropdown-item" href="Board.html">Board Foundation</a></li>
+                                            <li><a class="dropdown-item" href="pu.html">PUC Foundation</a></li>
+                                        </ul>
+                                        </li>
+                                        
+                                        </li>
+                                       
+                                        <li class="nav-item">
+                                            <a href="result.html" class="nav-link">Result</a>
+                                        </li>
+                                      <li class="nav-item">
+                                        <a href="gallery.html" class="nav-link">Gallery</a>
+                                    </li>
+                                        <li class="nav-item">
+                                            <a href="contact.html" class="nav-link">Contact</a>
+                                        </li>
+                                    </ul>
+                                    
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Button trigger modal -->
+            <!-- Start Search Modal -->
+            <div class="modal fade" id="search_modal">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title sm-sub-title">Search Here</h5>
+                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="search-widget">
+                                <form action="#">
+                                    <input type="text" class="form-control" placeholder="Search Here">
+                                    <button type="submit"><i class="fas fa-search"></i></button>
+                                </form>
+                            </div>
+                            <div class="search-results">
+                                <h5 class="my-4 sm-sub-title">10 Search Results Found</h5>
+                                <div class="theme-list">
+                                    <ul>
+                                        <li><a href="#">Smply dummy text of the printing and typesetting industry</a>
+                                        </li>
+                                        <li><a href="#">Mauris at varius orci. Vestibulum um felis eu nisl pulvinar</a>
+                                        </li>
+                                        <li><a href="#">Welcome To Our Campus For Learn</a></li>
+                                        <li><a href="#">The point of using Lorem Ipsum is that it has a more-or-less
+                                            </a></li>
+                                        <li><a href="#">has a more-or-less normal distribution of letters, as opposed to
+                                                using.</a></li>
+                                        <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. </a>
+                                        </li>
+                                        <li><a href="#">Build Education Website Using WP</a></li>
+                                        <li><a href="#">Build Education Website Using WordPress </a></li>
+                                        <li><a href="#">And Other Modern Technology</a></li>
+                                        <li><a href="#">assumenda est. Our friendly support team is standing.</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="button_one" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Search Modal -->
+        </div>
+    </header>
+    <!-- End Header -->
+
+
+    <!-- Start Hero Area -->
+    <section class="hero-section height-470" style="background-image:url(assets/images/edu/cmt.png)" data-aos="fade-up">
+        <div class="hero-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="page-hrader text-white text-center">
+                            <h1 class="display-2">CET</h1>
+                            <div class="page-breadcrumb">
+                                <p><a class="text-white" href="index.html">Home</a> CET</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Area -->
+
+
+
+    <!--Start Page -->
+    <div class="page-wrapper section-ptb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mb-3d-5" data-aos="fade-up" data-aos-delay="400">
+                   <!-- Start Blog Details -->
+                   <div class="details-wrapper">
+                     <div class="details-image mb-4">
+                         <img src="assets/images/edu/cmt2.png" alt="blog details" class="img-fluid">
+                     </div>
+                     <div class="details-title">
+                         <h2> CET - Common Entrance Tests</h2>
+                     </div>
+                  
+                     <div class="details-text pt-4">
+                         <p>Common Entrance Tests (CETs) are pivotal in the educational landscape, serving as vital evaluation mechanisms for prospective students seeking admission to diverse undergraduate and postgraduate programs. These standardized examinations provide a fair and transparent platform for assessing the knowledge, aptitude, and potential of candidates, ensuring that meritocracy prevails in the admissions process.</p>
+                          
+                        <p>By offering equal opportunities to all applicants, irrespective of their backgrounds or affiliations, CETs play a crucial role in democratizing access to higher education. Moreover, CETs act as benchmarks for academic excellence, motivating students to strive for proficiency and mastery in their respective fields of study. Beyond serving as mere assessment tools, CETs serve as gateways to a myriad of opportunities, including admission to prestigious institutions, scholarships, and other incentives that facilitate personal and professional growth.</p></div>
+                          <div class="details-title">
+                            <h2>Program Features</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                Solving thousands of MCQS of each subject</li>
+<li>Crystal clear teaching</li>
+<li>Daily tests</li>
+<li>Weekend cumulative tests</li>
+<li>Dedicated and talented faculty</li>
+<li>Research team to prepare mock question papers</li>
+<li>Closely monitored study hours</li>
+<li>Motivational talks by experts</li>
+<li>Separate 1-on-1 doubt clarification session</li>
+                            </li>
+                        </ul>
+                        <div class="details-title">
+                            <h2>Days are meticulously Planned for Maximum Utilization of Time</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                6:30 am to 8:00 am - Bio Class</li>
+<li>8:00 am to 8:30 am - Breakfast</li>
+<li>8:30 am to 10:30 am - Bio Study hour / doubt clearing session in presence of Lecturer</li>
+<li>10:30 am to 1:00 noon - Physics Class</li>
+<li>1:00 noon to 2:00 pm - Lunch</li>
+<li>2:00pm to 4:00 pm - Physics Study hour / doubt clearing session in presence of Lecturer</li>
+<li>4:00 pm to 5:30 pm - Chemistry Class</li>
+<li>5:30 pm to 6:00 pm - Snacks</li>
+<li>6:00 pm to 8:00 pm - Chemistry Study hour / doubt clearing session in presence of Lecturer</li>
+                            </li>
+                            <li>
+                                8:00 pm to 9:00 pm - Dinner 
+                            </li>
+                            <li>
+                                9:00 pm to 10:00 pm - 45 Mark Test
+                            </li>
+                            <li>
+                                15Phy. + 15Che. + 15Bio
+                            </li>
+                        </ul>
+
+                     <div class="tags-and-share">
+                         <div class="tags-list">
+                             <p>Tags :</p>
+                             <ul> 
+                                 <li><a href="#">NEET</a></li>
+                                 <li><a href="#">Board</a></li>
+                                 <li><a href="#">Summer Camp</a></li>
+                             </ul>
+                         </div>
+                         <div class="share-option">
+                             <p>Share: </p>
+                             <ul>
+                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                 <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                 <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                             </ul>
+                         </div>
+                     </div>
+                     <div class="comments-box-wrapper">
+                     
+                        
+                     </div>
+                     
+                  
+                   </div>
+                   <!-- End Blog Details -->
+                </div>
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <!-- Start Sidebar -->
+                    <div class="sidebar-wrapper">
+                    
+                      <div class="single-widget">
+                          <div class="latest-widget border">
+                              <h4>Fill out the Form</h4>
+                              <form action="#">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="text" class="form-control" placeholder="Name">
+                                    </div>
+                       
+                                    <div class="col-md-12">
+                                        <input type="email" class="form-control" placeholder="Email">
+                                    </div>
+                            
+
+                                    <div class="col-md-12">
+                                        <input type="number" class="form-control" placeholder="Phone Number">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input type="text" class="form-control" placeholder="Courses">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input type="text" class="form-control" placeholder="Message">
+                                    </div>
+                              
+                                    <div class="col-md-12">
+                                        <button type="submit" class="button_one">Submit</button>
+                                    </div>
+                                </div>
+                               
+                            </form>
+                          </div>
+                      </div>
+                      <div class="single-widget border p-4">
+                          <div class="category-widget">
+                              <h4>Courses</h4>
+                              <div class="category-list">
+                                <ul>
+                                    <li><a href="#">JEE </a></li>
+                                    <li><a href="#">IIT</a></li>
+                                    <li><a href="#">NEET </a></li>
+                                    <li><a href="#">KCET</a></li>
+                                    <li><a href="#">CET</a></li>
+                                </ul>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="single-widget border p-4">
+                          <div class="category-widget">
+                              <h4>Courses</h4>
+                              <div class="category-list">
+                                <ul>
+                                    <li><a href="#">Board</a></li>
+                                    <li><a href="#">PU Board</a></li>
+                                    <li><a href="#">1st-5th </a></li>
+                                <li><a href="#">6th-8th</a></li>
+                                    
+                                </ul>
+                              </div>
+                          </div>
+                      </div>
+                     
+                    </div>
+                    <!-- End Sidebar -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Page -->
+
+<!-- Start Footer -->
+<footer data-aos="fade-up">
+    <div class="subscribe-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="subscribe-wrapper p-5 bg-white">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="subscribe-text">
+                                    <h2>Newsletters</h2>
+                            
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="subscribe-form">
+                                    <form action="#">
+                                        <input type="email" class="form-control" placeholder="Enter Your Email">
+                                        <button type="submit">Subscribe</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-area default_bg">
+        <div class="footer-top section-ptb-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single_widget">
+                            <div class="address-widget">
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="assets/images/footer_logo.png" alt="" class="img-fluid"></a>
+                                </div>
+                               <p>With a single focus of training students to get into top medical institutes in India, Edification classes was established in the year 2019. Having delivered 48 medical seats out of 60 admissions in the first year of inception, Edification classes stood tall on delivering its promise towards result-oriented training.
+
+                               </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3d-5">
+                        <div class="single_widget">
+                            <h3>Important  Links</h3>
+                            <div class="widget-list">
+                                <ul>
+                                    <li><a href="#">JEE</a></li>
+                                    <li><a href="#">IIT</a></li>
+                                    <li><a href="#">NEET</a></li>
+                                    <li><a href="#">CET</a></li>
+                                    <li><a href="#">Board Foundation</a></li>
+                                    <li><a href="#">PUC Foundation </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-xs-5">
+                        <div class="single_widget">
+                     <h3>Contact Info</h3>
+                            <div class="widget-list">
+                                <p> <b style="font-size: 23px;">Address : </b>1St Main , R.T Nagar Main Road,Bengaluru - 560 032, Karnataka, <br><b style="font-size: 23px;">Email :</b>Edificationclasses@gmail.com</p>
+                                <span><b style="font-size: 23px;" >Phone :</b> +91 9742393896, +91 9663980860</span>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-wrapper border-top py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer-bottom">
+                            <div class="copyright-text">
+                                <p>Bright Ads Digital India Pvt Ltd 2023. All Rights Reserved.</p>
+                            </div>
+                            <div class="social-accounts">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer -->
+
+
+    
+    <div class="scroll-top">
+        <div class="scroll-icon">
+            <i class="fa fa-angle-up"></i>
+        </div>
+    </div>
+
+
+
+    <script src="assets/js/jquery-3.4.0.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/bootnavbar.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

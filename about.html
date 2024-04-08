@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eduaid Responsive Html5 Template</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Start Header -->
+  <header>
+    <div class="header_top_area my-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="header_top d-flex justify-content-between">
+                        <div class="site_logo">
+                            <a href="index.html"><img src="assets/images/logo.png" alt="logo" class="img-fluid"></a>
+                        </div>
+                        <div class="site_info d-flex justify-content-between">
+                            <div class="single_info">
+                                <img src="assets/images/location.png" alt="Location" class="img-fluid">
+                                <div class="info_data">
+                                    <h6>Location</h6>
+                                    <p>RT Nagar Main Road fornt of IDFC bank</p>
+                                </div>
+                            </div>
+                            <div class="single_info">
+                                <img src="assets/images/phone.png" alt="Location" class="img-fluid">
+                                <div class="info_data">
+                                    <h6>Phone</h6>
+                                    <p>+91 9663980860</p>
+                                </div>
+                            </div>
+                            <div class="single_info">
+                                <button class="special-button"
+                                    onclick="window.location.href = 'apply_form.html';">Apply Now <i
+                                        class="fa fa-angle-right"></i> <span class="button_icon"><i
+                                            class="far fa-file-alt"></i></span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-menu-area bg_dark_mobile">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-menu default_bg">
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="mobile_site_logo d-none">
+                                <a href="index.html"><img src="assets/images/footer_logo.png" alt="logo"
+                                        class="img-fluid"></a>
+                            </div>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about.html">About</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                        role="button" data-bs-toggle="dropdown">Courses</a>
+                                        
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="jee.html">JEE</a></li>
+                                            <li><a class="dropdown-item" href="iit.html">IIT (Main  + Advanced)</a></li>
+                                            <li><a class="dropdown-item" href="neet.html">NEET</a></li>
+                                            <li><a class="dropdown-item" href="cet.html">CET</a></li>
+                                            <li><a class="dropdown-item" href="Board.html">Board Foundation</a></li>
+                                            <li><a class="dropdown-item" href="pu.html">PUC Foundation</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                    </li>
+                                   
+                                    <li class="nav-item">
+                                        <a href="result.html" class="nav-link">Result</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="gallery.html" class="nav-link">Gallery</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="contact.html" class="nav-link">Contact</a>
+                                    </li>
+                                </ul>
+                                
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Button trigger modal -->
+        <!-- Start Search Modal -->
+        <div class="modal fade" id="search_modal">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title sm-sub-title">Search Here</h5>
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="search-widget">
+                            <form action="#">
+                                <input type="text" class="form-control" placeholder="Search Here">
+                                <button type="submit"><i class="fas fa-search"></i></button>
+                            </form>
+                        </div>
+                        <div class="search-results">
+                            <h5 class="my-4 sm-sub-title">10 Search Results Found</h5>
+                            <div class="theme-list">
+                                <ul>
+                                    <li><a href="#">Smply dummy text of the printing and typesetting industry</a>
+                                    </li>
+                                    <li><a href="#">Mauris at varius orci. Vestibulum um felis eu nisl pulvinar</a>
+                                    </li>
+                                    <li><a href="#">Welcome To Our Campus For Learn</a></li>
+                                    <li><a href="#">The point of using Lorem Ipsum is that it has a more-or-less
+                                        </a></li>
+                                    <li><a href="#">has a more-or-less normal distribution of letters, as opposed to
+                                            using.</a></li>
+                                    <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. </a>
+                                    </li>
+                                    <li><a href="#">Build Education Website Using WP</a></li>
+                                    <li><a href="#">Build Education Website Using WordPress </a></li>
+                                    <li><a href="#">And Other Modern Technology</a></li>
+                                    <li><a href="#">assumenda est. Our friendly support team is standing.</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="button_one" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Search Modal -->
+    </div>
+</header>
+<!-- End Header -->
+
+
+    <!-- Start Hero Area -->
+    <section class="hero-section height-470" style="background-image:url(assets/images/edu/about.png)"
+        data-aos="fade-up">
+        <div class="hero-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="page-hrader text-white text-center">
+                            <h1 class="display-2">About Us</h1>
+                            <div class="page-breadcrumb">
+                                <p><a class="text-white" href="index.html">Home</a> - About us</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Area -->
+
+
+    <!-- Start Services -->
+    <section class="services-section section-ptb">
+        <div class="services-area">
+            <div class="container">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-4 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="300">
+                        <div class="single-service-3 text-center py-5 px-4 border">
+                            <div class="service-icon">
+                                <img src="assets/images/service_icon_07.png" alt="service one" class="img-fluid">
+                            </div>
+                            <div class="service-text">
+                                <h4>
+                                    Our Philosophy</h4>
+                                <p>Edification classes believes in developing strong and successful relationships with its customers.</p>
+                                <a href="#">Read More <i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="400">
+                        <div class="single-service-3 active text-center text-white py-5 px-4">
+                            <div class="service-icon">
+                                <img src="assets/images/service_icon_01.png" alt="service one" class="img-fluid">
+                            </div>
+                            <div class="service-text">
+                                <h4>Our Objective</h4>
+                                <p>To identify students with talent and aptitude for research
+                                    help them realize their academic potential
+                                    </p>
+                                <a href="#">Read More <i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="500">
+                        <div class="single-service-3 text-center py-5 px-4 border">
+                            <div class="service-icon">
+                                <img src="assets/images/service_icon_08.png" alt="service one" class="img-fluid">
+                            </div>
+                            <div class="service-text">
+                                <h4>Mission & Vission </h4>
+                                <p>Our goal is to establish an environment of academic excellence made possible by contemporary teaching methods</p>
+                                <a href="#">Read More <i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Services -->
+
+
+    <!-- Start Welcome Section -->
+    <section class="welcome-section section-pb">
+        <div class="welcome-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 mb-3d-5 pl-0" data-aos="fade-up" data-aos-delay="300">
+                        <div class="half_column_image owl-carousel image-gallery">
+                            <div class="single-gallery">
+                                <img src="assets/images/edu/a1.png" alt="welcome">
+                            </div>
+                            <div class="single-gallery">
+                                <img src="assets/images/edu/a2.png" alt="welcome">
+                            </div>
+                            <div class="single-gallery">
+                                <img src="assets/images/edu/a3.png" alt="welcome">
+                            </div>
+                            <div class="single-gallery">
+                                <img src="assets/images/edu/a4.png" alt="welcome">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pr-120-lg" data-aos="fade-up" data-aos-delay="500">
+                        <div class="half_column_content_2">
+                            <h2 class="sub-title">About Us</h2>
+                            <p>With a single focus of training students to get into top medical institutes in India, Edification classes was established in the year 2019. Having delivered 48 medical seats out of 60 admissions in the first year of inception, Edification classes stood tall on delivering its promise towards result-oriented training.
+
+                                Edification classes Directors Mr. Shiv Gupta, Mr. Abhishek Pandey believes that nothing other than hard work can take a student to the doors of best medical institutions of India. This being the crux of their vision, the academy was founded to provide vigorous and challenging training to student’s who seek admissions at top medical institutes of the country. Being a professors they traveled across India training medical aspirants before starting Edification classes.
+                                
+                                With an aim to provide top-notch training to students, INA has been focusing on developing result oriented inputs. INA systematically designed course caters to the needs of aspirants, helping them excel various competitive and board examinations in the field of Medical education.
+                                
+                                 <div class="theme-list">
+                                <ul>
+                                    <li><a href="#">Best Faculty</a></li>
+                                    <li><a href="#">One on One classes</a></li>
+                                    <li><a href="#">Best Environment to Learn Something New</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Welcome Section -->
+
+
+    <!-- Start Countdown -->
+    <div class="countdown-area default_bg section-ptb overlay_2"
+        style="background: url(assets/images/edu/iit.png);" data-aos="fade-up" data-aos-delay="300">
+        <div class="container z-index">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 mb-xs-5">
+                    <div class="single-countdown">
+                        <span class="counter">60</span>
+                        <p>Teachers</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-xs-5">
+                    <div class="single-countdown">
+                        <span class="counter">1100</span>
+                        <p>Students</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-xs-5">
+                    <div class="single-countdown">
+                        <span class="counter">7</span>
+                        <p>Courses</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-countdown">
+                        <span class="counter">100</span>
+                        <p>Results</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Countdown -->
+
+
+    <!-- Start Featured-2 Section-->
+    <section class="featured-2-section section-ptb" data-aos="fade-up" data-aos-delay="300">
+        <div class="featured-area-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h2>Why Choose Us? </h2>
+                            <p>With an aim to provide top-notch training to students, INA has been focusing on developing result oriented inputs. INA systematically designed course caters to the needs of aspirants, helping them excel various competitive and board examinations in the field of Medical education.
+
+                                Since inception, INA has been in the forefront in evaluating student needs and developing creative teaching methodologies thereby contributing for their academic success. Our powerful and innovative teaching system helps unfold your potential systematically to achieve higher standards.
+                                
+                                With a team of expert professional academicians to educate, motivate, guide, test, and evaluate, INA is sure to be your perfect choice to crack admissions at premier Medical institutes, In a nutshell, our effort is not only to provide you with a road map towards effective learning, but also to reassure you of your capability and success.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 mb-3d-5">
+                        <div class="featured-2-text">
+                            <p>Developing our people into a team-based organization instilled with the Values of excellence, professionalism, teamwork and customer-orientation.
+
+                                Integrating hardware and software technologies into exceptional and Innovative products and services.
+                                
+                                Establishing profitable business alliances.</p>
+                            <p>Ensure the growth of the best scientific minds for research and development in the country
+                                Customized teaching techniques tailor made for each and every student</p>
+                            <p>We want to produce double-digit All India Top 100 rank holders so that we can train more young people with such ambitious goals. We are getting closer to realising that dream every day with our simple, straightforward approach that is focused on results</p>
+                      
+                            <a href="#" class="button_one">Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="featured-2-wrapper">
+                            <div class="single-featured-3 d-flex">
+                             
+                                <div class="featured-2-text">
+                                    <h5>Expert Teachers</h5>
+                               <p>Experience the difference with our expert teachers who bring knowledge, passion, and dedication to every lesson</p>
+                                </div>
+                            </div>
+                            <div class="single-featured-3 d-flex">
+                                
+                                <div class="featured-2-text">
+                                    <h5>JEE classes</h5>
+                                   <p>Join our JEE classes for a transformative learning experience. Led by seasoned instructors, our comprehensive program equips students with the skills and knowledge needed to excel in the highly competitive Joint Entrance Examination (JEE)</p>
+                                </div>
+                            </div>
+                            <div class="single-featured-3 d-flex">
+                              
+                                <div class="featured-2-text">
+                                    <h5>NEET classes</h5>
+                                   <p>Join our NEET classes for a transformative learning experience. Our specialized coaching institute offers comprehensive preparation for the NEET exam, led by expert instructors who are committed to your success.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="featured-2-wrapper">
+                            <div class="single-featured-3 d-flex">
+                               
+                                <div class="featured-2-text">
+                                    <h5>2nd PU classes</h5>
+                                   <p>Join our 2nd PU classes for a transformative academic journey. With a focus on comprehensive curriculum coverage and personalized attention, we prepare students to excel in their exams and beyond</p>
+                                </div>
+                            </div>
+                            <div class="single-featured-3 d-flex">
+                               
+                                <div class="featured-2-text">
+                                    <h5>Board classes</h5>
+                                   <p>oin our board classes for a transformative learning experience. With tailored curriculum, experienced instructors, and interactive sessions, we provide the perfect environment for academic growth and success.</p>
+                                </div>
+                            </div>
+                            <div class="single-featured-3 d-flex">
+                               
+                                <div class="featured-2-text">
+                                    <h5>Summer Camp</h5>
+                                    <p>
+                                        Join us for an unforgettable summer adventure at our camp! Dive into a world of fun and learning with exciting activities, outdoor adventures, and friendships that last a lifetime. Let the summer begin!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Featured-2 Section-->
+
+
+
+
+
+
+<!-- Start Footer -->
+<footer data-aos="fade-up">
+    <div class="subscribe-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="subscribe-wrapper p-5 bg-white">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="subscribe-text">
+                                    <h2>Newsletters</h2>
+                            
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="subscribe-form">
+                                    <form action="#">
+                                        <input type="email" class="form-control" placeholder="Enter Your Email">
+                                        <button type="submit">Subscribe</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-area default_bg">
+        <div class="footer-top section-ptb-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single_widget">
+                            <div class="address-widget">
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="assets/images/footer_logo.png" alt="" class="img-fluid"></a>
+                                </div>
+                               <p>With a single focus of training students to get into top medical institutes in India, Edification classes was established in the year 2019. Having delivered 48 medical seats out of 60 admissions in the first year of inception, Edification classes stood tall on delivering its promise towards result-oriented training.
+
+                               </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3d-5">
+                        <div class="single_widget">
+                            <h3>Important  Links</h3>
+                            <div class="widget-list">
+                                <ul>
+                                    <li><a href="#">JEE</a></li>
+                                    <li><a href="#">IIT</a></li>
+                                    <li><a href="#">NEET</a></li>
+                                    <li><a href="#">CET</a></li>
+                                    <li><a href="#">Board Foundation</a></li>
+                                    <li><a href="#">PUC Foundation </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-xs-5">
+                        <div class="single_widget">
+                     <h3>Contact Info</h3>
+                            <div class="widget-list">
+                                <p> <b style="font-size: 23px;">Address : </b>1St Main , R.T Nagar Main Road,Bengaluru - 560 032, Karnataka, <br><b style="font-size: 23px;">Email :</b>Edificationclasses@gmail.com</p>
+                                <span><b style="font-size: 23px;" >Phone :</b> +91 9742393896, +91 9663980860</span>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-wrapper border-top py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer-bottom">
+                            <div class="copyright-text">
+                                <p>Bright Ads Digital India Pvt Ltd 2023. All Rights Reserved.</p>
+                            </div>
+                            <div class="social-accounts">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer -->
+
+
+    <div class="scroll-top">
+        <div class="scroll-icon">
+            <i class="fa fa-angle-up"></i>
+        </div>
+    </div>
+    
+    <script src="assets/js/jquery-3.4.0.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/bootnavbar.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
